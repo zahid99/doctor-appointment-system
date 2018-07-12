@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>Login</h2>
+
+<div class="site_wrapper">
+    <div class="clearfix"></div>
+    <div class="feature_sec1 page-inner">
+        <div class="container">
+            <div class="row animate" data-anim-type="fadeInUp" data-anim-delay="800">
+                <div class="col-md-12">
+                    <div class="clearfix"></div>
+                    <div class="blog-comments-area col-md-12 organized" style=" text-align: center !important">
+                        <div id="respond">
+                            <h1 class="form_title" style=" margin-top:10px;">LOG in</h1>
+                            <h3 class="exibitor_reg_title color_bg_nohover" style="color:#ffffff;"><i class="fa fa-users fa-fw" aria-hidden="true"></i> Doctor Login</h3>
+                            <div class="clearfix"></div>
+                            <form method="post" class="form-horizontal exhibitor_reg_form" action="">
+                                <div class="clearfix"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Email or Phone</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" name="user_name" placeholder="Email or Phone" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Password</label>
+                                    <div class="col-sm-6">
+                                        <input type="Password" class="form-control" name="password" placeholder="Password" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-6 control-label"></label>
+                                    <div class="col-sm-3 control-label"><a href="">Forget Password?</a>
+                                        <div class="col-sm-3 control-label"><a href="">Registration</a></div></div>
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <!-- Do NOT use name="submit" or id="submit" for the Submit button -->
+                                        <button type="submit" name="login" value="1" class="view-more-btn btn-register"><i class="fa fa-sign-in"></i> Login</button>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Content Area -->
+    <a href="javascript:void(0)" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+</div>
+

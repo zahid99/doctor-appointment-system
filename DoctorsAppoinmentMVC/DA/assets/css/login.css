@@ -1,0 +1,36 @@
+
+
+.dez-login {
+    background-color: #292929;
+    bottom: 0;
+    display: table;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0px auto;
+    background: #fff;
+}
+.dez-form .form-control {
+    background: #DDE3EC;
+    height: 44px;
+}
+.dez-form .form-group {
+    margin-bottom: 15px;
+}
+.z-index3 {
+    z-index: 3;
+}
+.text-center.section-head p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+.text-center {
+    text-align: center;
+}
